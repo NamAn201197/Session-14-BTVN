@@ -70,7 +70,7 @@ function addRow() {
   let addTr = document.createElement("tr");
   for (let i = 0; i < 3; i++) {
     let td = document.createElement("td");
-    td.textContent = `cell ${i + 1} row `; // làm sao để đếm row
+    td.textContent = `cell ${i + 1} row `; // làm sao để đếm row ?
     addTr.appendChild(td);
   }
   table.appendChild(addTr);
